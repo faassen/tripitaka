@@ -173,7 +173,7 @@ logger.info('How blissful it is, for one who has nothing');
 ```
 
 ### context
-Performs a shallow copy of the context into the record.
+Performs a shallow copy of the context (the second argument to the logging functions) into the record.
 
 ```js
 const logger = new Logger({
